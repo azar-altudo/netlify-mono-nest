@@ -1,0 +1,16 @@
+{
+  "name": "netlify-nest",
+  "version": "1.0.0",
+  "description": "Netlify monorepo nest example",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "workspaces": [
+    "api/*",
+    "shop"
+  ],
+  "author": "",
+  "license": "ISC"
+}
