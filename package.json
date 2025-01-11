@@ -5,7 +5,11 @@
   "main": "index.js",
   "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:api": "yarn workspace @netlify-nest/rest build",
+    "start:api": "yarn workspace @netlify-nest/rest start",
+    "build:shop": "yarn workspace @netlify-nest/shop build",
+    "start:shop": "yarn workspace @netlify-nest/shop start"
   },
   "workspaces": [
     "api/*",
